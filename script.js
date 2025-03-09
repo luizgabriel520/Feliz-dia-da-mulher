@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     function criarFlor() {
         const flor = document.createElement("img");
-        const tipoFlor = Math.random() < 0.5 ? "rosa.png" : "girassol.png"; // Alterna entre rosa e girassol
+        const tipoFlor = Math.random() < 0.5 ? "Rosa.png" : "Girassol.png"; // Alterna entre rosa e girassol
         flor.src = tipoFlor;
         flor.classList.add("flor");
         document.querySelector(".chuva").appendChild(flor);
